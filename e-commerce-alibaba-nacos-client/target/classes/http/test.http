@@ -1,0 +1,4 @@
+GET http://127.0.0.1:8000/ecommerce-nacos-client/nacos-client/service-instance?serviceId=e-commerce-nacos-client
+Accept: application/json
+
+###

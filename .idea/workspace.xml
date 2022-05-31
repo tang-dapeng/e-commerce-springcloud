@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bcad8685-2ae8-4892-b12c-8bf82cf582b7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="e-commerce-springcloud" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="HTTP Request" />
+        <option value="Kotlin File" />
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="21BbEcNJD9ossrJOI2n99EyFmIo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Spring-Blade/SpringBlade" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenRunHelper" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\imooc\e-commerce-springcloud\e-commerce-storage-minio\src\test\java" />
+      <recent name="D:\WorkSpace\imooc\e-commerce-springcloud\e-commerce-alibaba-nacos-client\src\main\java\com\imooc\ecommerce\controller" />
+      <recent name="D:\WorkSpace\imooc\e-commerce-springcloud\e-commerce-alibaba-nacos-client\src\main\java\com\imooc\ecommerce\config" />
+      <recent name="D:\WorkSpace\imooc\e-commerce-springcloud\e-commerce-alibaba-nacos-client\src\main\java\com\imooc\ecommerce" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.imooc.ecommerce.config" />
+      <recent name="ecommerce" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\imooc\e-commerce-springcloud\e-commerce-storage-minio\src\main\resources" />
+      <recent name="D:\WorkSpace\imooc\e-commerce-springcloud\e-commerce-service\e-commerce-service-sdk\src\main\java\com\imooc\ecommerce" />
+      <recent name="D:\WorkSpace\imooc\e-commerce-springcloud\e-commerce-service\e-commerce-service-sdk\src\main\java\com\imooc\ecommerce\account" />
+      <recent name="D:\WorkSpace\imooc\e-commerce-springcloud\e-commerce-alibaba-nacos-client\src\main\java\com\imooc\ecommerce\service" />
+      <recent name="D:\WorkSpace\imooc\e-commerce-springcloud\http" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8000/ecommerce-nacos-client/nacos-client/service-instance" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="serviceId" />
+                <option name="value" value="e-commerce-nacos-client" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8000/ecommerce-nacos-client/nacos-client/service-instance" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="serviceId" />
+                <option name="value" value="e-commerce-gateway" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8000/ecommerce-nacos-client/service-instance" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="serviceId" />
+                <option name="value" value="e-commerce-gateway" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8000/service-instance" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="serviceId" />
+                <option name="value" value="e-commerce-gateway" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:9001/imooc/ecommerce-nacos-client/nacos-client/service-instance" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="e-commerce-user" />
+                <option name="value" value="eyJhbGciOiJSUzI1NiJ9.eyJlLWNvbW1lcmNlLXVzZXIiOiJ7XCJpZFwiOlwiMTUyNjczNzIzNjUwMTA1NzUzOFwiLFwidXNlcm5hbWVcIjpcInRhbmdkYXBlbmdcIn0iLCJqdGkiOiJmMWUxZmI0ZS0zNjY0LTRmMTQtYWNmNy0zMDg1YjY2M2Y1MzYiLCJleHAiOjE2NTMwNjI0MDB9.id3Hj6jcXXVeM8zN1RI9fP3haboXR_gnLz7ppPbp3Ko0jTdf4WDX9uSRqk2mOD6qlVJV_OTevU05HDrbaBtk46SnSQz2fqY4eYHZtuOqmgAvknb_Hed9fqYo36vOoqa_V1WYPceqB80gQNb141lhVVd2YmI_Yu19QkmR1hH3IjRyPa_-zE7pmRO5NbU3jT7lX1hVSqSkMqS3B6HmRAtSjFHQuWQNRvR6eHxo72ti1WykpntbGVDWDFlM23IrHB3AUZ2T9m0njYktIrn826Zk4AnNOAGffmCLwr9JXQ7t0tWACQ9LV7psC2qhxdgK02zAe_Iq0sk6cxRIRW8SMa3gNA" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="token" />
+                <option name="value" value="imooc" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="serviceId" />
+                <option name="value" value="e-commerce-gateway" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:9001/imooc/e-commerce/login" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;username&quot;: &quot;tangdapeng&quot;,&#10;  &quot;password&quot;: &quot;123456&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:9001/imooc/ecommerce-nacos-client/nacos-client/service-instance" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="e-commerce-user" />
+                <option name="value" value="eyJhbGciOiJSUzI1NiJ9.eyJlLWNvbW1lcmNlLXVzZXIiOiJ7XCJpZFwiOlwiMTUyNjczNzIzNjUwMTA1NzUzOFwiLFwidXNlcm5hbWVcIjpcInRhbmdkYXBlbmdcIn0iLCJqdGkiOiJkNGI2YTFkZC0wZWJkLTQzNTAtOGZiYS0xYzExMDViZmNkZGQiLCJleHAiOjE2NTMwNjI0MDB9.JZaxpMu6fg44mGO1nPmkcC3WqanZR_MlaxrE_czvT5VMrB8qKkYKl2Kd6OPLcjb_jAy-YZKPSZ_1cUuKh2ejTuvwDnA1t8_J2lO-ZFk2m9tUG8p-tqkx-2oWgR82kv-6XirJ9Y9VQw-BlW9Sa_83L6guyWMscZPqr53dsKKLovoOCnUKf2QembwXwKUbaFuvO-4tXcoQAXFTnevJs2EyogS8Q6Rc5Dajlkm9QGsy8LQUNJrS1i-TH0OtSWUuEEIBTmLOrHuO-r3UROAMmsGR0gz1f-ReMWWiPzZ0NVz5NwabLuggCLakbdUTcPwm23Hx3AEBXa8Yh2zmQuutQUuNFA" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="token" />
+                <option name="value" value="imooc" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="serviceId" />
+                <option name="value" value="e-commerce-gateway" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:9001/imooc/ecommerce-nacos-client/nacos-client/service-instance" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="e-commerce-user" />
+                <option name="value" value="eyJhbGciOiJSUzI1NiJ9.eyJlLWNvbW1lcmNlLXVzZXIiOiJ7XCJpZFwiOlwiMTUyNjczNzIzNjUwMTA1NzUzOFwiLFwidXNlcm5hbWVcIjpcInRhbmdkYXBlbmdcIn0iLCJqdGkiOiJjNDI5ZjdiMy1jZTRhLTQ2NWYtODRiNS00OTc0MjI3ZTk4ZjQiLCJleHAiOjE2NTI5NzYwMDB9.eoAmGZg8-3jqAOO8CzvW8k7rHN0DltQHByvg4rgNQ2_bBEBTqPfVh1F8NGQsQVD3aUkhNrJd6DBK5H2qUgQuURthc08D_tboPdkgZdxyXF7uu8IzNSr98-vIZFW_tdF_lSRWGXJ1Zx4Bg3Yo16_9JLrlp8WEdppMdIRUlloBZsLeIMurLsbUxN7Gi26SmLxQl1RMWnl6McK5RcpmU4CBaYnwQoKpTFe37K6_yr2e5AOh6Gypy35nNLExlE39eJeH0bFJMGp5Qo0EYueJdmQFFIztspZ1L8SyKIso0d14Gm7KAiUO4AfaT7XPdPV3cmUQ3z1uqs0BKi-xg8gFmpSdjA" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="token" />
+                <option name="value" value="imooc" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="serviceId" />
+                <option name="value" value="e-commerce-gateway" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:9001/imooc/ecommerce-nacos-client/nacos-client/service-instance" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="e-commerce-user" />
+                <option name="value" value="eyJhbGciOiJSUzI1NiJ9.eyJlLWNvbW1lcmNlLXVzZXIiOiJ7XCJpZFwiOlwiMTUyNjczNzIzNjUwMTA1NzUzOFwiLFwidXNlcm5hbWVcIjpcInRhbmdkYXBlbmdcIn0iLCJqdGkiOiJhOGIxYjZjMS1mNTIyLTQ1NzUtYjAxMy01ZjEwMGVlZWZlYTgiLCJleHAiOjE2NTMwNjI0MDB9.Ew_x5fRFqB35qxcLaRcVk5YmSj26kOPab0pbYSmEpY1lxgrVPtLXWLuq1sBHY1joOl6NIy_lybfrixFyS3M3GAkLJ0GBYbjdDGiYL6JJddtajqfv_cT7p0FClEiYbDF82F8eCAob6oxtfMqK0niWa3QF3vlBnbIrmFhsH6b7S7PB21TOdNPWTWeBLY7vCjjbjcVYuPNIeMHmPlG9rZA1HTSLa4eyHSZmH-Kg0daPOujDBlS4X6-_JAhE8Z9SNQoNy3-asc56FLOPPWQAsO9l5JwUWlAfq3_VqaInd_wcqxsK7YuqvrVUAPcLn4bcbIyM3P-ogWyKxF5xcms5B9byqg" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="token" />
+                <option name="value" value="imooc" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="serviceId" />
+                <option name="value" value="e-commerce-gateway" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:9001/imooc/ecommerce-nacos-client/sleuth/trace-info" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="e-commerce-user" />
+                <option name="value" value="eyJhbGciOiJSUzI1NiJ9.eyJlLWNvbW1lcmNlLXVzZXIiOiJ7XCJpZFwiOlwiMTUyNjczNzIzNjUwMTA1NzUzOFwiLFwidXNlcm5hbWVcIjpcInRhbmdkYXBlbmdcIn0iLCJqdGkiOiJjNDI5ZjdiMy1jZTRhLTQ2NWYtODRiNS00OTc0MjI3ZTk4ZjQiLCJleHAiOjE2NTI5NzYwMDB9.eoAmGZg8-3jqAOO8CzvW8k7rHN0DltQHByvg4rgNQ2_bBEBTqPfVh1F8NGQsQVD3aUkhNrJd6DBK5H2qUgQuURthc08D_tboPdkgZdxyXF7uu8IzNSr98-vIZFW_tdF_lSRWGXJ1Zx4Bg3Yo16_9JLrlp8WEdppMdIRUlloBZsLeIMurLsbUxN7Gi26SmLxQl1RMWnl6McK5RcpmU4CBaYnwQoKpTFe37K6_yr2e5AOh6Gypy35nNLExlE39eJeH0bFJMGp5Qo0EYueJdmQFFIztspZ1L8SyKIso0d14Gm7KAiUO4AfaT7XPdPV3cmUQ3z1uqs0BKi-xg8gFmpSdjA" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="token" />
+                <option name="value" value="imooc" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:9001/imooc/ecommerce-nacos-client/nacos-client/service-instance" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="e-commerce-user" />
+                <option name="value" value=".eyJlLWNvbW1lcmNlLXVzZXIiOiJ7XCJpZFwiOlwiMTUyNjczNzIzNjUwMTA1NzUzOFwiLFwidXNlcm5hbWVcIjpcInRhbmdkYXBlbmdcIn0iLCJqdGkiOiJjNDI5ZjdiMy1jZTRhLTQ2NWYtODRiNS00OTc0MjI3ZTk4ZjQiLCJleHAiOjE2NTI5NzYwMDB9.eoAmGZg8-3jqAOO8CzvW8k7rHN0DltQHByvg4rgNQ2_bBEBTqPfVh1F8NGQsQVD3aUkhNrJd6DBK5H2qUgQuURthc08D_tboPdkgZdxyXF7uu8IzNSr98-vIZFW_tdF_lSRWGXJ1Zx4Bg3Yo16_9JLrlp8WEdppMdIRUlloBZsLeIMurLsbUxN7Gi26SmLxQl1RMWnl6McK5RcpmU4CBaYnwQoKpTFe37K6_yr2e5AOh6Gypy35nNLExlE39eJeH0bFJMGp5Qo0EYueJdmQFFIztspZ1L8SyKIso0d14Gm7KAiUO4AfaT7XPdPV3cmUQ3z1uqs0BKi-xg8gFmpSdjA" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="token" />
+                <option name="value" value="imooc" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="serviceId" />
+                <option name="value" value="e-commerce-gateway" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:9001/imooc/ecommerce-nacos-client/nacos-client/service-instance" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="e-commerce-user" />
+                <option name="value" value="eyJhb1GciOiJSUzI1NiJ9.eyJlLWNvbW1lcmNlLXVzZXIiOiJ7XCJpZFwiOlwiMTUyNjczNzIzNjUwMTA1NzUzOFwiLFwidXNlcm5hbWVcIjpcInRhbmdkYXBlbmdcIn0iLCJqdGkiOiJjNDI5ZjdiMy1jZTRhLTQ2NWYtODRiNS00OTc0MjI3ZTk4ZjQiLCJleHAiOjE2NTI5NzYwMDB9.eoAmGZg8-3jqAOO8CzvW8k7rHN0DltQHByvg4rgNQ2_bBEBTqPfVh1F8NGQsQVD3aUkhNrJd6DBK5H2qUgQuURthc08D_tboPdkgZdxyXF7uu8IzNSr98-vIZFW_tdF_lSRWGXJ1Zx4Bg3Yo16_9JLrlp8WEdppMdIRUlloBZsLeIMurLsbUxN7Gi26SmLxQl1RMWnl6McK5RcpmU4CBaYnwQoKpTFe37K6_yr2e5AOh6Gypy35nNLExlE39eJeH0bFJMGp5Qo0EYueJdmQFFIztspZ1L8SyKIso0d14Gm7KAiUO4AfaT7XPdPV3cmUQ3z1uqs0BKi-xg8gFmpSdjA" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="token" />
+                <option name="value" value="imooc" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="serviceId" />
+                <option name="value" value="e-commerce-gateway" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:9003/imooc/e-commerce/login" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;username&quot;: &quot;tangdapeng&quot;,&#10;  &quot;password&quot;: &quot;123456&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:9003/imooc/ecommerce-nacos-client/nacos-client/service-instance" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="e-commerce-user" />
+                <option name="value" value="eyJhbGciOiJSUzI1NiJ9.eyJlLWNvbW1lcmNlLXVzZXIiOiJ7XCJpZFwiOlwiMTUyNjczOTE3NTUzNjA3ODg1MFwiLFwidXNlcm5hbWVcIjpcInRhbmdkYXBlbmcyXCJ9IiwianRpIjoiNDExMzYyZWYtYjc0OC00MTI3LTgwODYtZDAwZWE0YmMyZjA3IiwiZXhwIjoxNjUyODg5NjAwfQ.IT2SHJHvPbq9KRqS7KKUqYQTkHqmAkjv6y8CAfoCI5BbttnqvHqdxIPIN9TyQJcysLItiuy53HGSZ4H8ihsodrYmu1WAXxxOXIhz_q2LdlmOTLuAmYl-E3hGBYjaMP7jGY1ZHC3fETOzhrUr4RjXz1IFXOOClUEK_DRFwZksWT9hQ3Pn809HYaj_m8yA8ONOCT7pOASgcWMLdMO943-5jSiLnXnovAStbhoEBBcDubuCeiNR5vtzjVmU4aTAe00ef7BuQsPGg82bjdnj9pVWrF3svd64g2JY0qbjJmv85arY9tkolOMkFKpEcQ8DAeOiOKppf-v6fW-gzbdhpgZ0HA" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="token" />
+                <option name="value" value="imooc" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="serviceId" />
+                <option name="value" value="e-commerce-gateway" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:9001/imooc/ecommerce-nacos-client/nacos-client/service-instance" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="e-commerce-user" />
+                <option name="value" value="eyJhbGciOiJSUzI1NiJ9.eyJlLWNvbW1lcmNlLXVzZXIiOiJ7XCJpZFwiOlwiMTUyNjczOTE3NTUzNjA3ODg1MFwiLFwidXNlcm5hbWVcIjpcInRhbmdkYXBlbmcyXCJ9IiwianRpIjoiNDExMzYyZWYtYjc0OC00MTI3LTgwODYtZDAwZWE0YmMyZjA3IiwiZXhwIjoxNjUyODg5NjAwfQ.IT2SHJHvPbq9KRqS7KKUqYQTkHqmAkjv6y8CAfoCI5BbttnqvHqdxIPIN9TyQJcysLItiuy53HGSZ4H8ihsodrYmu1WAXxxOXIhz_q2LdlmOTLuAmYl-E3hGBYjaMP7jGY1ZHC3fETOzhrUr4RjXz1IFXOOClUEK_DRFwZksWT9hQ3Pn809HYaj_m8yA8ONOCT7pOASgcWMLdMO943-5jSiLnXnovAStbhoEBBcDubuCeiNR5vtzjVmU4aTAe00ef7BuQsPGg82bjdnj9pVWrF3svd64g2JY0qbjJmv85arY9tkolOMkFKpEcQ8DAeOiOKppf-v6fW-gzbdhpgZ0HA" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="token" />
+                <option name="value" value="imooc" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="serviceId" />
+                <option name="value" value="e-commerce-gateway" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:9001/imooc/ecommerce-nacos-client/nacos-client/service-instance" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="e-commerce-user" />
+                <option name="value" value="eyJhbGciOiJSUzI1NiJ9.eyJlLWNvbW1lcmNlLXVzZXIiOiJ7XCJpZFwiOlwiMTUyNjczOTE3NTUzNjA3ODg1MFwiLFwidXNlcm5hbWVcIjpcInRhbmdkYXBlbmcyXCJ9IiwianRpIjoiNDExMzYyZWYtYjc0OC00MTI3LTgwODYtZDAwZWE0YmMyZjA3IiwiZXhwIjoxNjUyODg5NjAwfQ.IT2SHJHvPbq9KRqS7KKUqYQTkHqmAkjv6y8CAfoCI5BbttnqvHqdxIPIN9TyQJcysLItiuy53HGSZ4H8ihsodrYmu1WAXxxOXIhz_q2LdlmOTLuAmYl-E3hGBYjaMP7jGY1ZHC3fETOzhrUr4RjXz1IFXOOClUEK_DRFwZksWT9hQ3Pn809HYaj_m8yA8ONOCT7pOASgcWMLdMO943-5jSiLnXnovAStbhoEBBcDubuCeiNR5vtzjVmU4aTAe00ef7BuQsPGg82bjdnj9pVWrF3svd64g2JY0qbjJmv85arY9tkolOMkFKpEcQ8DAeOiOKppf-v6fW-gzbdhpgZ0HA" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="token" />
+                <option name="value" value="imooc" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="service-id" />
+                <option name="value" value="e-commerce-gateway" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:9001/imooc/e-commerce/register" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;username&quot;: &quot;tangdapeng2&quot;,&#10;  &quot;password&quot;: &quot;123456&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MavenRunConfiguration" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.AddressServiceTest.testCreateAddressInfo">
+    <configuration name="AccountApplicationTest.contextLoad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="e-commerce-account-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.ecommerce.MinioApplication" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.imooc.ecommerce" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.ecommerce.AccountApplicationTest" />
+      <option name="METHOD_NAME" value="contextLoad" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddressServiceTest.testCreateAddressInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="e-commerce-account-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.ecommerce.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.imooc.ecommerce.service" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.ecommerce.service.AddressServiceTest" />
+      <option name="METHOD_NAME" value="testCreateAddressInfo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinioApplicationTest.contextLoad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="e-commerce-storage-minio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.ecommerce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.imooc.ecommerce" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.ecommerce.MinioApplicationTest" />
+      <option name="METHOD_NAME" value="contextLoad" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="e-commerce-account-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.ecommerce.MinioApplication" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.imooc.ecommerce.AccountApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="e-commerce-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.imooc.ecommerce.AdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthorityCenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="e-commerce-authority-center" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.imooc.ecommerce.AuthorityCenterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="e-commerce-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.imooc.ecommerce.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinioApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="e-commerce-storage-minio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.ecommerce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.imooc.ecommerce.MinioApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="e-commerce-alibaba-nacos-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.imooc.ecommerce.NacosClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.AccountApplicationTest.contextLoad" />
+      <item itemvalue="JUnit.MinioApplicationTest.contextLoad" />
+      <item itemvalue="JUnit.AddressServiceTest.testCreateAddressInfo" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.AdminApplication" />
+      <item itemvalue="Spring Boot.AuthorityCenterApplication" />
+      <item itemvalue="Spring Boot.NacosClientApplication" />
+      <item itemvalue="Spring Boot.AccountApplication" />
+      <item itemvalue="Spring Boot.MinioApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.MinioApplication" />
+        <item itemvalue="JUnit.AddressServiceTest.testCreateAddressInfo" />
+        <item itemvalue="Spring Boot.AccountApplication" />
+        <item itemvalue="JUnit.MinioApplicationTest.contextLoad" />
+        <item itemvalue="JUnit.AccountApplicationTest.contextLoad" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.20355192" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="com.intellij.execution.dashboard.RunDashboardServiceViewContributor@716bcc83" type="d2cb1801:ServiceModel$ContributorNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="com.intellij.execution.dashboard.RunDashboardServiceViewContributor@716bcc83" type="d2cb1801:ServiceModel$ContributorNode" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="com.intellij.execution.dashboard.RunDashboardServiceViewContributor@716bcc83" type="d2cb1801:ServiceModel$ContributorNode" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="com.intellij.execution.dashboard.RunDashboardServiceViewContributor@716bcc83" type="d2cb1801:ServiceModel$ContributorNode" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+          <option name="groupByContributor" value="true" />
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bcad8685-2ae8-4892-b12c-8bf82cf582b7" name="Default Changelist" comment="" />
+      <created>1637417316854</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637417316854</updated>
+      <workItem from="1637417320021" duration="689000" />
+      <workItem from="1652171004871" duration="16395000" />
+      <workItem from="1652319193614" duration="13352000" />
+      <workItem from="1652422940051" duration="6246000" />
+      <workItem from="1652511710095" duration="17920000" />
+      <workItem from="1652596660454" duration="21089000" />
+      <workItem from="1652667546257" duration="11912000" />
+      <workItem from="1652712403683" duration="21031000" />
+      <workItem from="1652794540162" duration="215000" />
+      <workItem from="1652795226531" duration="15109000" />
+      <workItem from="1652875142591" duration="634000" />
+      <workItem from="1652891171091" duration="7667000" />
+      <workItem from="1652954199571" duration="2801000" />
+      <workItem from="1653009644394" duration="19694000" />
+      <workItem from="1653231624932" duration="9400000" />
+      <workItem from="1653267869390" duration="1807000" />
+      <workItem from="1653326802749" duration="3486000" />
+      <workItem from="1653356081465" duration="1953000" />
+      <workItem from="1653371079643" duration="13212000" />
+      <workItem from="1653400421180" duration="4409000" />
+      <workItem from="1653404958484" duration="51000" />
+      <workItem from="1653405029797" duration="4330000" />
+      <workItem from="1653500794111" duration="1192000" />
+      <workItem from="1653528073290" duration="3995000" />
+      <workItem from="1653614868364" duration="1273000" />
+      <workItem from="1653709684884" duration="594000" />
+      <workItem from="1653711948629" duration="13888000" />
+      <workItem from="1653761523092" duration="16308000" />
+      <workItem from="1653876524101" duration="20354000" />
+      <workItem from="1653920722942" duration="7913000" />
+      <workItem from="1653966402892" duration="598000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="301" y="103" key="#MinioApplication" timestamp="1653763304620">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="301" y="103" key="#MinioApplication/0.0.1536.824@0.0.1536.824" timestamp="1653763304620" />
+    <state x="361" y="74" key="#Project_Structure" timestamp="1653721678744">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1653721678744" />
+    <state x="223" y="71" width="1141" height="682" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1653763332940">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="71" width="1141" height="682" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1653763332940" />
+    <state x="507" y="221" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1652552952230">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="507" y="221" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1652552952230" />
+    <state x="574" y="132" key="#com.intellij.ide.util.MemberChooser" timestamp="1653237839893">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="132" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1653237839893" />
+    <state x="620" y="305" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1653404976265">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="620" y="305" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1653404976265" />
+    <state x="256" y="341" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1653928349458">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="256" y="341" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1653928349458" />
+    <state x="417" y="279" width="701" height="271" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1653555104412">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="417" y="279" width="701" height="271" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1653555104412" />
+    <state x="430" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1653729657726">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="430" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1653729657726" />
+    <state width="840" height="466" key="DebuggerActiveHint" timestamp="1653927902285">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="840" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1653927902285" />
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1653904576281">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1653904576281" />
+    <state x="548" y="157" key="FileChooserDialogImpl" timestamp="1653817241717">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="157" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1653817241717" />
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1653961179515">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1653961179515" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1653961179515">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1653961179515" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1653961179515">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1653961179515" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1653961179515">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1653961179515" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1653961179515">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1653961179515" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1653961179515">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1653961179515" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1653961179515">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1653961179515" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1653961179515">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1653961179515" />
+    <state width="1165" height="211" key="GridCell.Tab.2.bottom" timestamp="1653961179507">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1165" height="211" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1653961179507" />
+    <state width="1165" height="211" key="GridCell.Tab.2.center" timestamp="1653961179506">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1165" height="211" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1653961179506" />
+    <state width="1165" height="211" key="GridCell.Tab.2.left" timestamp="1653961179506">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1165" height="211" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1653961179506" />
+    <state width="1165" height="211" key="GridCell.Tab.2.right" timestamp="1653961179507">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1165" height="211" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1653961179507" />
+    <state x="309" y="0" key="SettingsEditor" timestamp="1653761818205">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="309" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1653761818205" />
+    <state width="607" height="446" key="SwitcherDM" timestamp="1653372146992">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="607" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1653372146992" />
+    <state width="775" height="416" key="XDebugger.FullValuePopup" timestamp="1653895196420">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="775" height="416" key="XDebugger.FullValuePopup/0.0.1536.824@0.0.1536.824" timestamp="1653895196420" />
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1653904576281">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1653904576281" />
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1653904633994">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1653904633994" />
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1653529356685">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1653529356685" />
+    <state x="365" y="27" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1652461380328">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="365" y="27" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1652461380328" />
+    <state x="496" y="276" width="1040" height="548" key="find.popup" timestamp="1653903634535">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="496" y="276" width="1040" height="548" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1653903634535" />
+    <state x="356" y="23" width="1180" height="733" key="new project wizard" timestamp="1653404056663">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="356" y="23" width="1180" height="733" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1653404056663" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1653529395956">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1653529395956" />
+    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1653729706156">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1653729706156" />
+    <state x="472" y="105" key="spring file set editor" timestamp="1653402720128">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="472" y="105" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1653402720128" />
+  </component>
+</project>
